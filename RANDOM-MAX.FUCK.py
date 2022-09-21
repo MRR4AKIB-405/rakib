@@ -176,8 +176,8 @@ class Main:
 		self.loop = 0
 		try:
 			plr = requests.get('https://raw.githubusercontent.com/EsanAhmedAbir/OldCrack/main/Premium.txt').text
-			if basesplit in plr:
-				key = basesplit
+			if premium in plr:
+				key = premium
 				stat = ("\033[0;92mPREMIUM")
 				FY = '\033[0;93m'
 				FG = '\033[0;92m'

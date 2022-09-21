@@ -226,10 +226,6 @@ def checks(ok,cp):
               (H, P, str(len(cp))))
         input("\x1b[1;97mPRESE ENTER TO BACK MENU ")
 
-		print("%s [%s•%s] %sVERSION   : 1.0")
-		print("%s [%s•%s] %sYOUR KEY  :key")
-		print("%s [%s•%s] %sSTATUS    : ") 
-		print("")
 		def xyz():
     os.system("play-audio WELCOME_TO_𝙰𝙺𝙰𝚂𝙷_RANDOM_CLONE_TOOL.mp3")
     os.getuid

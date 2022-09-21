@@ -152,7 +152,7 @@ def notice():
 
 
 	runtxt("\n\033[0;91m YOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m SEND THIS KEY TO ADMIN FOR \033[0;96m FREE APPROVAL>> %s%s"%(G,basesplit))
+	runtxt("\033[0;93m SEND THIS KEY TO ADMIN FOR \033[0;96m FREE APPROVAL>> ")
 	runtxt("\033[0;92m BYPASS ADMIN TELEGRAM >> https://t.me/EsanAhmedAbir")
 	runtxt("\033[0;95m    <===================☠️  \033[0;97mEXIT\033[0;95m ☠️===================> ")
 	subprocess.check_output(["am", "start", "https://t.me/EsanAhmedAbir"])
@@ -189,7 +189,7 @@ class Main:
 				FG = '\033[0;90m'
 				GET = '\033[0;92m [P] GET PREMIUM'
 		except requests.exceptions.ConnectionError:
-			print("\n%s [!] NO INTERNET CONNECTION..\n"%(R))
+			print("\n%s [!] NO INTERNET CONNECTION..\n")
 			exit()
 		os.system("clear")
 		
@@ -226,9 +226,9 @@ def checks(ok,cp):
               (H, P, str(len(cp))))
         input("\x1b[1;97mPRESE ENTER TO BACK MENU ")
 
-		print("%s [%s•%s] %sVERSION   : %s1.0"%(G,R,G,B,G))
-		print("%s [%s•%s] %sYOUR KEY  : %s%s"%(G,R,G,B,G,key))
-		print("%s [%s•%s] %sSTATUS    : %s"%(G,R,G,B,stat)) 
+		print("%s [%s•%s] %sVERSION   : 1.0")
+		print("%s [%s•%s] %sYOUR KEY  :key")
+		print("%s [%s•%s] %sSTATUS    : ") 
 		print("")
 		def xyz():
     os.system("play-audio WELCOME_TO_𝙰𝙺𝙰𝚂𝙷_RANDOM_CLONE_TOOL.mp3")
